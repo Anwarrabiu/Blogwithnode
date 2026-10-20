@@ -26,7 +26,7 @@ app.use(session({
     resave: false,
     saveUninitialized: true,
     store: MongoStore.create({
-        mongoUri: process.env.MONGODB_URI
+    mongoUri: process.env.MONGODB_URI
     }),
 }));
 
