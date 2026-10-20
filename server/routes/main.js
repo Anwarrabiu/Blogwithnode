@@ -13,7 +13,7 @@ router.get('', async (req,res)=>{
     try{
     const locals = {
         title:"Node JS Blog",
-        description:"Simple Blog With Node Express And MongoDB"
+        description:"Little Blog With Node Express And MongoDB"
     }
 let perPage = 10;
 let page = req.query.page || 1;
